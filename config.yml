@@ -1,0 +1,14 @@
+certificates:
+  - first:
+    domain: domain.com
+    SANs:
+      - api.domain.com
+      - admin.domain.com
+    certificate: /path/certificate1
+    key: /path/key1
+  - second:
+    domain: domain.com2
+    certificate: /path/certificate2
+    key: /path/key2
+email: my@email.com
+output: test.json
